@@ -1,0 +1,22 @@
+{
+  "name": "YouTube App",
+  "version": "1.0.0",
+  "description": "Electron Test Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "ep_build": "electron-packager . --platform=win32 --arch=x64 YouTube_App"
+
+  },
+  "author": "game.crash",
+  "license": "ISC",
+  "build": {
+    "productName": "Unofficial YouTube App",
+    "win": {
+      "icon": "./icon.ico" 
+    },
+    "directories": {
+      "buildResources": "public" 
+    }
+  }
+}
